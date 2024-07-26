@@ -1,0 +1,40 @@
+.task-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-form input[type="text"],
+.task-form input[type="date"],
+.task-form select,
+.task-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.task-form button {
+  background-color:#197346
+  ;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-form button:hover {
+  background-color: #025aa5;
+}
+.add-btn{
+margin-top: 20px;
+margin-left: 40%;
+}
+.due-date{
+  color: gray;
+}  

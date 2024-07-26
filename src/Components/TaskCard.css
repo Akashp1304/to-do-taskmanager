@@ -1,0 +1,104 @@
+/* src/components/TaskCard.css */
+.task-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-card h3 {
+  margin: 0;
+  font-size: 1.25em; /* Adjust the font size as needed */
+}
+
+.task-card p {
+  margin: 5px 0;
+  font-size: 1em; /* Ensure text size is smaller than the title */
+}
+
+.task-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.edit-section label {
+  font-weight: bold;
+  font-size: 1.15em; /* Adjust the font size as needed */
+}
+
+.edit-section input,
+.edit-section textarea,
+.edit-section select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+.title-1{
+font-size: 75;
+}
+.task-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.task-buttons button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.task-buttons .delete-btn{
+  background-color: #d9534f;
+}
+.description{
+  font-size: 1em;
+}
+.task-buttons .save-btn {
+  background-color: #5cb85c;
+}
+
+.task-buttons .done-btn {
+  background-color: #5bc0de;
+}
+
+.task-buttons .cancel-btn {
+  background-color: #d9534f;
+}
+
+.task-buttons button:hover {
+  opacity: 0.8;
+}
+
+.task-card.low {
+  border: 8px solid #5cb85c;
+}
+
+.task-card.medium {
+  border: 8px solid #f0ad4e;
+}
+
+.task-card.high {
+  border: 8px solid #d9534f;
+}
+
+.task-card.done {
+  text-decoration: line-through;
+  color: #777;
+}
